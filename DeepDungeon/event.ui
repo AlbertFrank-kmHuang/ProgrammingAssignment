@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>event</class>
+ <widget class="QWidget" name="event">
+  <property name="geometry"><rect><x>0</x><y>0</y><width>560</width><height>620</height></rect></property>
+  <property name="windowTitle"><string>神秘事件</string></property>
+  <property name="styleSheet">
+   <string>QWidget { background-color: #0e0b07; } QLabel { color: #e8dcc0; font-weight: bold; } QPushButton { background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #2d2418, stop:1 #1e180e); color: #d4aa5a; border: 2px solid #6b4e1e; border-radius: 6px; font-weight: bold; font-size: 13px; padding: 6px 14px; } QPushButton:hover { background-color: #3d3020; border-color: #c9a227; color: #f5d87a; } QPushButton#accept_button { background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #1a3a18, stop:1 #0e2010); border-color: #3a7a2a; color: #90e070; } QPushButton#accept_button:hover { border-color: #5aaf4a; color: #b0f090; } QTextEdit { background-color: rgba(8, 6, 4, 220); color: #c8bb9a; border: 2px solid #4a3820; border-radius: 5px; font-size: 13px; padding: 10px; }</string>
+  </property>
+
+  <widget class="QLabel" name="label">
+   <property name="geometry"><rect><x>0</x><y>16</y><width>560</width><height>44</height></rect></property>
+   <property name="text"><string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#c9a227;&quot;&gt;触发神秘事件！&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string></property>
+  </widget>
+
+  <widget class="QLabel" name="image_show">
+   <property name="geometry"><rect><x>180</x><y>68</y><width>200</width><height>160</height></rect></property>
+   <property name="styleSheet"><string>background-color: rgba(0, 0, 0, 120); border: 2px solid #4a3820; border-radius: 6px;</string></property>
+   <property name="text"><string>事件插图</string></property>
+   <property name="alignment"><set>Qt::AlignCenter</set></property>
+   <property name="scaledContents"><bool>true</bool></property>
+  </widget>
+
+  <widget class="QTextEdit" name="text_show">
+   <property name="geometry"><rect><x>40</x><y>242</y><width>480</width><height>250</height></rect></property>
+   <property name="readOnly"><bool>true</bool></property>
+  </widget>
+
+  <widget class="QPushButton" name="accept_button">
+   <property name="geometry"><rect><x>90</x><y>510</y><width>155</width><height>52</height></rect></property>
+   <property name="text"><string>⚔ 接受</string></property>
+  </widget>
+
+  <widget class="QPushButton" name="cancel_button">
+   <property name="geometry"><rect><x>315</x><y>510</y><width>155</width><height>52</height></rect></property>
+   <property name="text"><string>↩ 避开</string></property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

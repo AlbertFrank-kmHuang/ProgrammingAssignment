@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/backgrounds/battle_background.png</file>
+        <file>images/backgrounds/event_background.png</file>
+        <file>images/backgrounds/main_background.png</file>
+        <file>images/backgrounds/prepare_background.png</file>
+        <file>images/backgrounds/shop_background.png</file>
+    </qresource>
+</RCC>
